@@ -61,7 +61,6 @@ canvas {
 }
 
 
-/*
 .noise {
   margin: 0;
   top: 0;
@@ -73,9 +72,9 @@ canvas {
   background-repeat: repeat;
   mix-blend-mode:color-burn;
 }
-*/
 
 
+/*
 .grain {
   margin: 0;
   top: 0;
@@ -84,6 +83,19 @@ canvas {
   width: 100vw;
   height: 100vh;
   background-image: url(../images/grain.png);
+  background-repeat: repeat;
+  mix-blend-mode:multiply;
+}
+*/
+
+.abandon {
+  margin: 0;
+  top: 0;
+  z-index: 100;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/044.JPG);
   background-repeat: repeat;
   mix-blend-mode:color-dodge;
 }
