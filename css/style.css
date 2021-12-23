@@ -97,10 +97,3 @@ a:active {
   color: skyblue;
   background-color: hotpink;
 }
-
-
-audio {
-  position: absolute;
-  left: 1vw;
-  bottom: 30vh;
-}
