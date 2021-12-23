@@ -85,5 +85,5 @@ canvas {
   height: 100vh;
   background-image: url(../images/grain.png);
   background-repeat: repeat;
-  mix-blend-mode:overlay;
+  mix-blend-mode:color-dodge;
 }
