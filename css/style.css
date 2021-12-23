@@ -5,31 +5,38 @@
 }
 */
 
+@font-face {
+	font-family: 'AmbidexterWebRegular';
+	src:
+		url('../fonts/Ambidexter_Regular.woff2') format('woff2'),
+		url('../fonts/Ambidexter_Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 html, body {
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 
 h1 {
   margin: 0;
   position: absolute;
   top: 10vh;
-  left: 5vw;
+  left: 3vw;
   
   z-index: 200;
   
-  font-family: sans-serif;
-  font-size: 2vw;
-/*
-  color: aqua;
-  mix-blend-mode: exclusion;
-*/
-  color: red;
+  font-family: 'AmbidexterWebRegular', Helvetica, Arial, sans-serif;   
+  color: #E6DCC8;
+  font-size: 6rem;
+  line-height: 6rem;
 }
 
 ::selection {
-
+  background-color: #E6DCC8;
+  color: #193723; 
 }
 
 ul {
@@ -43,59 +50,15 @@ ul {
   font-size: 10rem;
 }
 
-p {
-  position: relative;
-  left: 10rem;
-}
 
-
-canvas {
-  position: absolute;
+.cursor {
+  position: fixed;
+  margin: 0;
   top: 0;
   left: 0;
   display: block;
   width: 100vw;
   height: 100vh;
-  filter: blur(5rem);
-  z-index: -100;
+/*  z-index: 100;*/
 }
 
-
-.noise {
-  margin: 0;
-  top: 0;
-  z-index: 100;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(../images/noise.png);
-  background-repeat: repeat;
-  mix-blend-mode:color-burn;
-}
-
-
-/*
-.grain {
-  margin: 0;
-  top: 0;
-  z-index: 100;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(../images/grain.png);
-  background-repeat: repeat;
-  mix-blend-mode:multiply;
-}
-*/
-
-.abandon {
-  margin: 0;
-  top: 0;
-  z-index: 100;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(../images/044.JPG);
-  background-repeat: repeat;
-  mix-blend-mode:color-dodge;
-}
