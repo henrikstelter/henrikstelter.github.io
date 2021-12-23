@@ -25,17 +25,16 @@ html, body {
 h1 {
   display: flex;
   margin: 0;
-  
 
   position: absolute;
-  top: 10vh;
-  left: 3vw;
+  top: 2vh;
+  left: 1vw;
   
   z-index: 200;
   
   font-family: 'AmbidexterWebRegular', Helvetica, Arial, sans-serif;   
   color: #E6DCC8;
-  font-size: 6vw;
+  font-size: 7vw;
   line-height: 6vw;
   }
 
@@ -71,7 +70,7 @@ ul {
   position: fixed;
   margin: 0;
   bottom: 10vh;
-  right: 3vw;
+  right: 5vw;
 }
 
 a {
