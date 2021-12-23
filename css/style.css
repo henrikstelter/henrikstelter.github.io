@@ -18,6 +18,8 @@ html, body {
   margin: 0;
   padding: 0;
   cursor: none;
+  overflow: hidden;
+  background-color: #193723;
 }
 
 h1 {
@@ -32,7 +34,7 @@ h1 {
   color: #E6DCC8;
   font-size: 6rem;
   line-height: 6rem;
-}
+  }
 
 ::selection {
   background-color: #E6DCC8;
@@ -60,5 +62,37 @@ ul {
   width: 100vw;
   height: 100vh;
 /*  z-index: 100;*/
+}
+
+.mail {
+  position: fixed;
+  margin: 0;
+  bottom: 10vh;
+  right: 3vw;
+}
+
+a {
+  cursor: none;
+}
+
+a:link {
+  color: #E6DCC8;
+}
+
+/* visited link */
+a:visited {
+  color: #E6DCC8;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  background-color: skyblue;
+}
+
+/* selected link */
+a:active {
+  color: skyblue;
+  background-color: hotpink;
 }
 
