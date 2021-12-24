@@ -41,8 +41,8 @@ p {
   
   font-family: sans-serif;   
   color: #E6DCC8;
-  font-size: 1.5vw;
-  line-height: 1.6vw;
+  font-size: 1.7vw;
+  line-height: 1.8vw;
 }
 
 ::selection {
@@ -120,7 +120,7 @@ img {
   position: fixed;
   right: 0;
   top: 0;
-  width: 20vw;
+  width: 25vw;
   height: 100vh;
   
   overflow-y:scroll;

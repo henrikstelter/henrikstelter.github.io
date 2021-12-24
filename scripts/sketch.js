@@ -15,7 +15,7 @@ function draw() {
   
   strokeWeight(1);
   rectMode(CENTER);
-  rect(windowWidth/2, windowHeight/2, mouseX/1.7, mouseY/2);
+  rect(windowWidth/2, windowHeight/2, mouseX/2, mouseY/2);
               
 }
 
