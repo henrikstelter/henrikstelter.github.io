@@ -4,15 +4,16 @@
 }
 
 @font-face {
-	font-family: 'AmbidexterWebRegular';
-	src:
-		url('../fonts/Ambidexter_Regular.woff2') format('woff2'),
-		url('../fonts/Ambidexter_Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'AmbidexterWebRegular';
+  src:
+    url('../fonts/Ambidexter_Regular.woff2') format('woff2'),
+    url('../fonts/Ambidexter_Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   cursor: none;
@@ -27,19 +28,24 @@ h1 {
   position: absolute;
   top: 2vh;
   left: 1vw;
-  
+
   z-index: 200;
-  
-  font-family: 'AmbidexterWebRegular', Helvetica, Arial, sans-serif;   
+
+  font-family: 'AmbidexterWebRegular', Helvetica, Arial, sans-serif;
   color: var(--color);
   font-size: 7vw;
   line-height: 6vw;
-  }
+}
 
 p {
   margin: 0;
-  
-  font-family: sans-serif;   
+
+/*  font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 300;
+/*  font-weight: 500;*/
+/*  font-weight: 700;*/
+
   color: #E6DCC8;
   font-size: 1.7vw;
   line-height: 1.8vw;
@@ -47,18 +53,7 @@ p {
 
 ::selection {
   background-color: var(--color);
-  color: var(--background-color); 
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-      display: flex;
-  position: fixed;
-  list-style-type: none;
-  top: 10vh;
-  left: 5vw;
-  font-size: 10rem;
+  color: var(--background-color);
 }
 
 
@@ -70,7 +65,7 @@ ul {
   display: block;
   width: 100vw;
   height: 100vh;
-/*  z-index: 100;*/
+  /*  z-index: 100;*/
 }
 
 .mail {
@@ -99,6 +94,7 @@ a:visited {
 a:hover {
   color: hotpink;
   background-color: skyblue;
+  font-style: italic;
 }
 
 /* selected link */
@@ -112,8 +108,8 @@ img {
   bottom: 0;
   left: 0;
   width: 60vw;
-  
-  mix-blend-mode:difference;
+
+  mix-blend-mode: difference;
 }
 
 .side {
@@ -122,13 +118,13 @@ img {
   top: 0;
   width: 25vw;
   height: 100vh;
-  
-  overflow-y:scroll;
+
+  overflow-y: scroll;
   overflow-x: hidden;
-  
+
   border-left: 1px solid var(--color);
-/*  background-color: var(--background-color);*/
-  }
+  /*  background-color: var(--background-color);*/
+}
 
 .side-content {
   padding: 0.5vw;
