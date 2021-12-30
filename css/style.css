@@ -1,6 +1,13 @@
+/*
 :root {
   --background-color: #193723;
   --color: #E6DCC8;
+}
+*/
+
+:root {
+  --background-color: black;
+  --color: white;
 }
 
 @font-face {
@@ -46,7 +53,7 @@ p {
 /*  font-weight: 500;*/
 /*  font-weight: 700;*/
 
-  color: #E6DCC8;
+  color: var(--color);
   font-size: 1.7vw;
   line-height: 1.8vw;
 }

@@ -7,7 +7,7 @@ function draw() {
 //  background('#193723');
   
   noCursor();
-  stroke('#E6DCC8');
+  stroke(255);
   strokeWeight(1);
   noFill();
   //ellipse(mouseX, mouseY, width/50);
