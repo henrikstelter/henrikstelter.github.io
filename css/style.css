@@ -65,7 +65,7 @@ p {
 
 
 .cursor {
-  position: fixed;
+  position: absolute;
   margin: 0;
   top: 0;
   left: 0;
@@ -114,6 +114,8 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 0;
+  height: 72vh; 
+  image-rendering: pixelated;
 
   mix-blend-mode: difference;
 }
