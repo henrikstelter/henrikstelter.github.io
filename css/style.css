@@ -47,11 +47,11 @@ h1 {
 p {
   margin: 0;
 
-/*  font-family: Helvetica, Arial, sans-serif;*/
+  /*  font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 300;
-/*  font-weight: 500;*/
-/*  font-weight: 700;*/
+  /*  font-weight: 500;*/
+  /*  font-weight: 700;*/
 
   color: var(--color);
   font-size: 1.7vw;
@@ -72,7 +72,7 @@ p {
   display: block;
   width: 100vw;
   height: 100vh;
-  /*  z-index: 100;*/
+  /*  z-index: 1000;*/
 }
 
 .mail {
@@ -82,8 +82,10 @@ p {
   right: 5vw;
 }
 
+
+
 a {
-  cursor: none;
+  cursor: pointer;
 }
 
 a:link {
@@ -99,8 +101,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
-  background-color: skyblue;
+  /*  color: hotpink;*/
+  /*  background-color: skyblue;*/
   font-style: italic;
 }
 
@@ -114,14 +116,14 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 72vh; 
+  height: 72vh;
   image-rendering: pixelated;
 
   mix-blend-mode: difference;
 }
 
 .side {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   width: 25vw;
@@ -131,10 +133,9 @@ a:active {
   overflow-x: hidden;
 
   border-left: 1px solid var(--color);
-  /*  background-color: var(--background-color);*/
-  background-color: rgba(0,0,0,1);
-    
-  cursor:all-scroll;
+  background-color: var(--background-color);
+
+  cursor: default;
 }
 
 .side-content {
