@@ -84,6 +84,8 @@ p {
   margin: 0;
   bottom: 10vh;
   right: 5vw;
+    z-index: 10000;
+
 }
 
 
@@ -128,6 +130,7 @@ a:active {
 
 .side {
   position: fixed;
+  z-index: 1000;
   right: 0;
   top: 0;
   width: 25vw;
@@ -146,7 +149,7 @@ a:active {
   padding: 0.5vw;
 }
 
-.platzhalter {
+.placeholder {
   position: relative;
   bottom: 0;
   height: 25vh;
